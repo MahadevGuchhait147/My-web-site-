@@ -14,7 +14,7 @@ export function Hero() {
       <div className="hero-meta"><span><MapPin size={15}/> Kolkata, India</span><div className="socials"><a aria-label="GitHub" href="https://github.com/MahadevGuchhait147" target="_blank" rel="noreferrer"><Github size={18}/></a><a aria-label="LinkedIn" href="https://www.linkedin.com/in/mahadev-guchhait-b5a506254/" target="_blank" rel="noreferrer"><Linkedin size={18}/></a><a aria-label="Email" href="mailto:mahadevg147@gmail.com"><Mail size={18}/></a></div></div>
     </motion.div>
     <motion.div className="hero-visual" initial={{ opacity: 0, scale: .9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: .75, delay: .1 }}>
-      <div className="orbit orbit-a"/><div className="orbit orbit-b"/><div className="portrait-ring"><img src="/images/mahadev-portrait.png" alt="Mahadev Guchhait, QA Automation Engineer"/></div>
+      <div className="orbit orbit-a"/><div className="orbit orbit-b"/><div className="portrait-ring"><img src="/images/mahadev-portrait-source.png" alt="Mahadev Guchhait, QA Automation Engineer"/></div>
       <motion.div className="experience-badge glass" animate={{ y: [0, -8, 0] }} transition={{ repeat: Infinity, duration: 4 }}><b>2<span>+</span></b><div><strong>Years</strong><small>Experience</small></div></motion.div>
       <motion.div className="quality-pill glass" animate={{ y: [0, 8, 0] }} transition={{ repeat: Infinity, duration: 4.7 }}><span>✓</span><div><strong>Quality first</strong><small>Reliable releases</small></div></motion.div>
     </motion.div>
