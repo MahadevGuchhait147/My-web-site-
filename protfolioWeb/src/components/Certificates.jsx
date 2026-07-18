@@ -1,0 +1,4 @@
+import { Award, BadgeCheck, CodeXml, Github, Network } from 'lucide-react'
+import { Reveal, SectionTitle } from './ui'
+const certs=[['Playwright',Award,'End-to-end automation'],['JavaScript',CodeXml,'Core programming'],['GitHub',Github,'Version control & workflows'],['API Testing',Network,'Service quality assurance']]
+export function Certificates(){return <section id="certificates" className="section container"><Reveal><SectionTitle eyebrow="CERTIFICATES" title="Always learning. Always" accent="raising the bar." /></Reveal><div className="certificate-grid">{certs.map(([name,Icon,detail],i)=><Reveal delay={i*.06} className="certificate glass" key={name}><div className="certificate-icon"><Icon/></div><div><p>Professional Certificate</p><h3>{name}</h3><span>{detail}</span></div><BadgeCheck size={18}/></Reveal>)}</div></section>}
